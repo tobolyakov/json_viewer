@@ -1,0 +1,10 @@
+/* Common styles */
+*:focus {
+  outline: none;
+}
+
+.viewer {
+  padding: 20px;
+  font-size: 14px !important;
+}
+

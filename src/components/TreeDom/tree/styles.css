@@ -1,0 +1,72 @@
+
+.tree-header { display: flex; align-items: center; }
+
+.tree-header .property-item { margin-top: 4px; margin-bottom: 0; }
+
+.tree-header,
+.tree-footer{
+    padding: 0;
+    font-size: 14px;
+    border: none;
+    background: none;
+}
+
+.object:not(:last-child) { margin-right: 0.3em; }
+
+.object:not(:first-child) { margin-left: 0.3em; }
+
+.object .object-name {
+    margin-right: 0.3em !important;
+}
+
+.object-arrow {
+    display: inline-block;
+    text-align: left;
+    width: 1.5em;
+}
+.object-arrow::before {
+    content: "▶";
+    font-size: 12px;
+}
+.object-arrow--open::before {
+    content: "▼";
+    font-size: 12px;
+}
+.tree-header[disabled] .object-arrow::before {
+    content: none;
+}
+
+.object-name {
+    font-size: 16px;
+    color: #8c6e9c;
+}
+
+.object-counter {
+    margin-right: .5em;
+    margin-left: .5em;
+    padding: 4px;
+    line-height: 12px;
+    font-size: 12px;
+    border-radius: 50%;
+    background-color: #6591b4;
+    color: white;
+    height: 12px;
+    min-width: 12px;
+    box-sizing: content-box;
+    display: inline-block;
+}
+
+.object-name:after {
+    content: ":";
+}
+
+
+.tree-content {
+    padding-left: 1.5em;
+}
+
+.tree-header { line-height: 18px; margin-bottom: 16px; }
+
+.tree-header span:last-child {
+    margin-right: .5em;
+}

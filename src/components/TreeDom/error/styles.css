@@ -1,0 +1,23 @@
+.file-error {
+    margin: 20px 0;
+    padding: 0 20px;
+    background: #fccece;
+    border: 1px solid #dd2222;
+}
+
+.file-error .message {
+    margin: 5px 0;
+    color: #dd2222;
+}
+
+.file-error .code {
+    margin: 5px 0;
+    color: #5c7450;
+}
+
+.file-error .code span {
+    padding: 0 4px;
+    background: #dd2222;
+    border-radius: 2px;
+    color: #fff0f0;
+}

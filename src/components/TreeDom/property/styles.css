@@ -1,0 +1,48 @@
+.property-item {
+    line-height: 18px;
+    margin: 0 0.5em 16px
+}
+
+.property-item span:last-child { margin-right: 0 !important; }
+
+.property-item:not(.empty) .property-name {
+    margin-right: .3em;
+}
+
+.property-item:not(.empty) .property-name::after {
+    content: ":";
+}
+
+.property-name {
+    font-size: 16px;
+    color: #8c6e9c;
+}
+
+.property-object {
+    margin-right: 0;
+    font-size: 16px;
+    color: #cc7832;
+}
+
+.property-string {
+    margin-right: 0;
+    font-size: 16px;
+    color: #5c7450;
+}
+
+.property-boolean {
+    margin-right: 0;
+    font-size: 16px;
+    color: #cc7832;
+}
+
+.property-number {
+    margin-right: 0;
+    font-size: 16px;
+    color: #6591b4;
+}
+
+.property-string::before,
+.property-string::after {
+    content: "\"";
+}
